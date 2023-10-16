@@ -15,7 +15,7 @@ while (test_expression)
   }
   return 0;
 } 
-/* The snipet above runs a whhile loop, let's check the other two loops*/
+/* The snipet above runs a while loop, let's check the other two loops*/
 
 #include <iostream>
 using namespace std;
