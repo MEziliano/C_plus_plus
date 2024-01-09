@@ -1,6 +1,6 @@
 // Learning C++
 // Type Casting 
-// Specifying how to  interpret a piece of dat; Useful for converting data type
+// Specifying how to  interpret a piece of data; Useful for converting data type
 // for example int32_t or float
 // Syntax: (uint32_t) (expression) ;
 
@@ -9,6 +9,8 @@
 
 using namespace std;
 
+
+// Are these variables GLOBAL?
 float flt = -7.44f; // f stands for float constant
 int32_t sgn;
 uint32_t unsgn;
@@ -22,9 +24,7 @@ int main(){
     cout << "int32:  " << sgn << endl;
     cout << "unit32: " << unsgn << endl;
 
-
-
-    // Convert fahrenheit to Celsius
+    // Convert fahrenheit to Celsius //
     int fahrenheit = 100;
     int celsius;
 
@@ -37,8 +37,7 @@ int main(){
     cout << endl;
     cout << "Float:          " << weight << endl;
     cout << "Integer part:   " << (int)weight << endl;
-    cout << "Fractional part:" << (int)(weight - (int)weight) << endl;
-
-
+    cout << "Fractional part:" << (int)((weight - (int)weight) *10000) << endl;
+    
     return(0);
 }
